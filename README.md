@@ -1,7 +1,7 @@
 # 🌟 My First Project
 
 Welcome to my very first project! 🎉  
-I'm just getting started, so please be patient and kind. 🙏
+My first project, so please be patient. 🙏
 
 ---
 
