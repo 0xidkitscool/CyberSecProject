@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search</title>
+</head>
+
+<body>
+    <form style="text-align: center; color: aquamarine;" method="POST">
+        <input type="text" name="query" placeholder="Search...">
+        <input type="submit" value="Search">
+    </form>
+
+    {% if results %}
+    <ul>
+        {% for row in results %}
+        <li>{{ row }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+
+</html>
